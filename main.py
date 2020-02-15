@@ -69,7 +69,7 @@ def map_creator(lat, lon, list_film):
     int, int, list -> NoneType
     Create a html map
     '''
-        map = folium.Map(location=[lat, lon],
+    map = folium.Map(location=[lat, lon],
                     zoom_start=10)
 
     fg_fl = folium.FeatureGroup(name="Films")
