@@ -1,5 +1,4 @@
 import folium
-import geopy
 import time
 
 def input_from_file(year):
